@@ -18,9 +18,6 @@ const prodConnfig = {
                 marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`
             },
             shared: packageJson.dependencies,
-            optimization: {
-                splitChunks: false,
-            },
         })
     ]
 };
